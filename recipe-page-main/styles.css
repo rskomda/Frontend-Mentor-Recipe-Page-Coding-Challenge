@@ -1,0 +1,91 @@
+body {
+    margin: 30px;
+    color: hsl(17, 9%, 29%);
+    line-height: 25px;
+    font-size: 12px;
+    font-family: 'Outfit', sans-serif;
+}
+
+table {
+    text-align: left;
+    padding-left: 1.2em;
+    width: 100%;
+    height: 50%;
+}
+
+span {
+    font-weight: 600;
+}
+
+ul li, ol li {
+    list-style-position: outside;
+    margin-left: -1.2em;
+    padding-left: 1em;
+    margin-bottom: 0.2em;
+}
+
+ol li::marker {
+    font-weight: bold;
+}
+
+li::marker {
+    color: rgba(123,70,50,255);
+}
+
+#title {
+    font-size: 32px;
+    font-family: 'Young Serif', serif;
+}
+
+#time {
+    background-color: rgba(255,247,252,255);
+    border-radius: 10px;
+    padding: 10px 10px 10px 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#time-heading {
+    color: rgb(207, 52, 116);
+}
+
+.heading {
+    font-size: 24px;
+    color: rgba(123,70,50,255);
+    font-family: 'Young Serif', serif;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.time-bullets::marker {
+    color: rgb(207, 52, 116);
+}
+
+.solid1 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    opacity: 0.5;
+}
+
+.solid2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    opacity: 0.5;
+}
+
+.horizontal-line {
+    border: 1px solid black;
+}
+
+.attribution { 
+    margin-top: 40px;
+    font-size: 11px; text-align: center;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
